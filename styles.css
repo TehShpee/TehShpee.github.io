@@ -12,7 +12,7 @@
 .card2 > .mdl-card__title {
   color: #fff;
   //height: 42px;
-  background: blue center / cover;
+  background: rgb(63,81,181) center / cover;
 }
 .mdl-grid.center-items {
   justify-content: center;
