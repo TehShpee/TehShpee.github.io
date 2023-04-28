@@ -1,8 +1,10 @@
 body {
     margin-left: 10%;
     margin-right: 10%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: large;
     background-color: #202324;
+    line-height: 1.8;
 }
     h1 {
     color: #e8e6e3;
@@ -15,5 +17,40 @@ body {
   }
   h1{
 
+    text-align: center;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: larger;
+    
+  }
+
+  .active{
+    color: #f0ac2d;
+  }
+
+  .links{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .center{
     text-align: center;
   }
